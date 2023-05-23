@@ -14,6 +14,13 @@
     font-family: 'Poppins';
     font-weight: 400;
 }
+.logo{
+    width: auto;
+    height: 50px;
+    position: relative;
+    bottom: 82px;
+    right: 9px;
+}
 .main__header-container{
     height: 100%;
     display: grid;
