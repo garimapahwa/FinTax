@@ -3,7 +3,7 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import * as XLSX from 'xlsx';
 
-const API_KEY = process.env.REACT_APP_API_KEY
+const API_KEY =  process.env.REACT_APP_API_KEY
 
 function ChatPage() {
   const [textContent, setTextContent] = useState('');
@@ -94,12 +94,40 @@ function ChatPage() {
   };
 
   return (
-    <div className="App">
-      <input type="file"
-       onChange={handleFileUpload}
-       />
+    <div className="App" style={{display: "flex", gap: "4rem"}}>
+      {/* <input type="file"
+       onChange={handleFileUpload} className='inputfield'
+       /> */}
+       <div
+                  style={{
+                    border: "2px",
+                    borderStyle: "solid",
+                    padding: "1rem 1rem",
+                    borderRadius: "15px",
+                    backgroundColor: "#c7e3fa",
+                    width: "15rem",
+                    height: "4rem"
+                  }}
+                >
+                  <label style={{ cursor: "pointer" }}>
+                    <input
+                      type="file"
+                      onChange={handleFileUpload}
+                      style={{  cursor: "pointer" }}
+                    />
+                    <div style={{ display: "flex" }}>
+                      {/* <FileUploadIcon
+                        color="white"
+                        size={25}
+                        className="mr-3"
+                      /> */}
+                      Upload Your File
+                    </div>
+                  </label>
+                </div>
 
-      <div style={{ position:"relative", height: "800px", width: "700px"  }}>
+
+      <div style={{ position:"relative", height: "550px", width: "700px"  }}>
         <MainContainer>
           <ChatContainer>       
             <MessageList 

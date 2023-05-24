@@ -88,7 +88,7 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          Bajaj Finery
+                          Bitcoin
                         </Typography>
                       </Grid>
                       <Grid item>
@@ -129,7 +129,7 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          TTML
+                         Ethereum
                         </Typography>
                       </Grid>
                       <Grid item>
@@ -170,7 +170,7 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          Reliance
+                          Solana
                         </Typography>
                       </Grid>
                       <Grid item>
@@ -211,7 +211,7 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          TTML
+                          USD Coin
                         </Typography>
                       </Grid>
                       <Grid item>
@@ -252,7 +252,7 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          Stolon
+                          Polygon
                         </Typography>
                       </Grid>
                       <Grid item>

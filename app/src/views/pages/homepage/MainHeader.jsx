@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { links } from '../homepage/data';
+import { links } from './data';
 import { useState } from 'react';
 import Popup from './Popup.jsx';
 // import{Link} from 'react-router-dom'
@@ -49,7 +49,7 @@ const MainHeader = () => {
                 <h4 className='tag'> #ChatGPT</h4>
                 <h1 className='heading'>A Tax Accounting Blockchain Platform</h1>
                 <p>FinTax is an innovative solution for tax accounting that was created with the aim of addressing the difficulties associated with tax compliance in the context of blockchain-based transactions.</p>
-                <Link to="/plans" className='btn lg'>Get Started</Link>
+                <Link to="/dashboard/default" className='btn lg'>Get Started</Link>
                 </div>
                 <div className="main__header-right">
             <div className="buttons">

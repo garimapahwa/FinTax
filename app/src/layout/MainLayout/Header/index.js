@@ -10,7 +10,7 @@ import SearchSection from './SearchSection';
 import ProfileSection from './ProfileSection';
 import NotificationSection from './NotificationSection';
 import HelpsupportSection from './HelpsupportSection';
-import ChatSection from './ChatSection'
+// import ChatSection from './ChatSection'
 // assets
 // import { IconMenu2 } from '@tabler/icons';
 
@@ -43,7 +43,7 @@ const Header = () => {
       <Box sx={{ flexGrow: 1 }} />
 
       {/* notification & profile */}
- <ChatSection/>
+      <a className='btn lg' href='/chat'> Chat support</a>
       <HelpsupportSection/>
       <NotificationSection />
       <ProfileSection />
