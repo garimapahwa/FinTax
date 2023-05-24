@@ -39,9 +39,32 @@
 .css-14x137r-MuiTypography-root {
     color:#121926 
 }
-
+.css-yb6tsl-MuiPaper-root-MuiCard-root:hover{
+    transform: scale(1.05);
+}
+.css-v90bie-MuiPaper-root-MuiCard-root:hover{
+    transform: scale(1.05);
+}
+.css-1qhu1pm-MuiPaper-root-MuiCard-root:hover {
+    box-shadow: inherit;
+    transform: scale(1.05);
+}
+.css-1gw03l3-MuiPaper-root-MuiCard-root:hover {
+    box-shadow: inherit;
+    transform: scale(1.05);
+}
 .css-9d4wr9{
     background-color: #121926;
+}
+.footer{
+    background: #000b50;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 119px;
+}
+.main__header-right:hover .main__header-circle{
+    filter: blur(15px);
 }
 .inputfield{
   

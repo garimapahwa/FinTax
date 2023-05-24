@@ -74,6 +74,9 @@ const MainHeader = () => {
             <img src={Image} alt="bottomimg" />
           </div>
         </div>
+        <div className='footer'>
+
+        </div>
       </header>
     </>
   );
