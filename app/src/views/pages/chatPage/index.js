@@ -127,7 +127,7 @@ function ChatPage() {
                 </div>
 
 
-      <div style={{ position:"relative", height: "550px", width: "700px"  }}>
+      <div style={{ position:"relative", height: "550px", width: "1150px"  }}>
         <MainContainer>
           <ChatContainer>       
             <MessageList 
