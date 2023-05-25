@@ -1,4 +1,5 @@
 # FinTax - Tax Accounting Blockchain Platform
+![WhatsApp Image 2023-05-23 at 2 06 24 PM](https://github.com/garimapahwa/FinTax/assets/81583289/d739f2ed-fbd7-4d81-af18-73d00ba291e5)
 
 ## Problem
 Users of a tax accounting blockchain platform may experience difficulty accessing insights on their portfolio and blockchain transactions. The current process may lack a natural flow and not be user-friendly. The challenge is to create a user-friendly portal for the chat application with an interactive interface. Users should be able to interact with the application using natural language and receive responses in a conversational manner.
@@ -17,12 +18,8 @@ Our solution to this problem is to develop a platform with user-friendly interfa
 * CSS: Styling of the website.
 * JS: Responsiveness of the website.
 
-
-## Deployment
-Click [here]() to go to our website.
-
 ## Video Demo
-
+[Click here](https://youtu.be/RC5IT2_MsJ8) for the video link
 
 ## Team Name: Recursion (Team No 102)
 * Yash Kataria
